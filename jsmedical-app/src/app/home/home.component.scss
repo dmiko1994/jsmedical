@@ -1,0 +1,107 @@
+.home-header {
+    cursor: pointer;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.dropbtn {
+    color: orange;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: inherit;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    // box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #595959;
+    color: red;
+}
+
+.larger-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 300px;
+    // box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.larger-dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.larger-dropdown-content a:hover {
+    background-color: #595959;
+    color: red;
+}
+
+.dropdown:hover .larger-dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: red;
+    cursor: pointer;
+}
+
+.toolbar {
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+*:focus {
+    outline: 0;
+}
+
+.home-item {
+    color: orange;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-item:hover {
+    color: red;
+}
+
+.products-text {
+    color: white;
+}
+
+.products-text:hover {
+    color: red;
+    background-color: #595959;
+}
+
+.toolbar-spacer {
+    margin-right: 2%;
+}
