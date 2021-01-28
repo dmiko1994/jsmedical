@@ -1,52 +1,56 @@
-<div>
-    <div class="home-header">
-        <a [routerLink]="['/']">
-            <img src="../assets/icons/jsmedlogo.PNG">
-        </a>
-    </div>
+<div class="sticky-container">
+    <div class="sticky">
+        <div class="home-header">
+            <a [routerLink]="['/']">
+                <img src="../assets/icons/jsmedlogo.PNG">
+            </a>
+        </div>
 
-    <div class="toolbar">
-        <div class="toolbar-spacer">
-            <div class="home-item" [routerLink]="['/']">
-                HOME
+        <div class="toolbar">
+            <div class="toolbar-spacer">
+                <div class="home-item" [routerLink]="['/']">
+                    HOME
+                </div>
             </div>
-        </div>
-        <div class="dropdown toolbar-spacer">
-            <button class="dropbtn">PATIENT EDUCATION</button>
-            <div class="larger-dropdown-content">
-                <a href="#">What is a DVT?</a>
-                <a href="#">What is Lymphedema?</a>
-                <a href="#">Why Cold Therapy?</a>
+            <div class="dropdown toolbar-spacer">
+                <button [routerLink]="['/education']" class="dropbtn">PATIENT EDUCATION</button>
+                <div class="larger-dropdown-content">
+                    <a href="#">What is a DVT?</a>
+                    <a href="#">What is Lymphedema?</a>
+                    <a href="#">Why Cold Therapy?</a>
+                </div>
             </div>
-        </div>
-        <div class="dropdown toolbar-spacer">
-            <button class="dropbtn">PRODUCTS</button>
-            <div class="larger-dropdown-content">
-                <ol type="A">
-                    <li class="products-text">Vascular Therapy</li>
-                    <ul>
-                        <li class="products-text">PlasmaFlow</li>
-                        <li class="products-text">ManaFlow</li>
-                    </ul>
-                    <li class="products-text">Cold Therapy</li>
-                    <ul>
-                        <li class="products-text">ManaEZ ROM Ice</li>
-                        <li class="products-text">ManaEZ Shoulder Ice</li>
-                        <li class="products-text">ManaEZ Hip Ice</li>
-                        <li class="products-text">ManaEZ Ankle Ice</li>
-                    </ul>
-                </ol>
+            <div class="dropdown toolbar-spacer">
+                <button class="dropbtn">PRODUCTS</button>
+                <div class="larger-dropdown-content">
+                    <ol type="A">
+                        <li class="products-text">Vascular Therapy</li>
+                        <ul>
+                            <li class="products-text">PlasmaFlow</li>
+                            <li class="products-text">ManaFlow</li>
+                        </ul>
+                        <li class="products-text">Cold Therapy</li>
+                        <ul>
+                            <li class="products-text">ManaEZ ROM Ice</li>
+                            <li class="products-text">ManaEZ Shoulder Ice</li>
+                            <li class="products-text">ManaEZ Hip Ice</li>
+                            <li class="products-text">ManaEZ Ankle Ice</li>
+                        </ul>
+                    </ol>
+                </div>
             </div>
-        </div>
-        <div class="dropdown toolbar-spacer">
-            <button class="dropbtn">CONTACT US</button>
-            <div class="dropdown-content">
-                <a href="#">Inquiry</a>
-                <a href="#">Phone</a>
-                <a href="#">Email</a>
+            <div class="dropdown toolbar-spacer">
+                <button class="dropbtn">CONTACT US</button>
+                <div class="dropdown-content">
+                    <a href="#">Inquiry</a>
+                    <a href="#">Phone</a>
+                    <a href="#">Email</a>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<router-outlet></router-outlet>
 
 

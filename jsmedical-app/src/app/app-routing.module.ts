@@ -1,12 +1,17 @@
 import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { HomeComponent } from "./home/home.component";
+import { AboutComponent } from "./about/about.component";
+import { PatientEducationComponent } from "./patient-education/patient-education.component";
 
 const homeRoutes: Routes = [
-    {
+    { 
         path: '',
-        component: HomeComponent
+        component: AboutComponent
+    },
+    {
+        path: 'education',
+        component: PatientEducationComponent
     }
 ]
 

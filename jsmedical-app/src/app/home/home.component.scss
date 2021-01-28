@@ -105,3 +105,16 @@
 .toolbar-spacer {
     margin-right: 2%;
 }
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+}
+
+.sticky-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
