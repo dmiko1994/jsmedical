@@ -18,4 +18,8 @@ export class HomeComponent implements OnInit {
     this.isSticky = window.pageYOffset >= 50;
   }
 
+  scrollToTop() {
+    window.scroll(0,0);
+  }
+
 }
