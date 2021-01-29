@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PatientEducationComponent } from './patient-education/patient-education.component';
 import { AboutComponent } from './about/about.component';
+import { QualityServiceComponent } from './quality-service/quality-service.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     PatientEducationComponent,
-    AboutComponent
+    AboutComponent,
+    QualityServiceComponent
   ],
   imports: [
     AppRoutingModule,

@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
+  qualityTrigger: boolean;
+  philanthropyTrigger: boolean;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  triggerQuality() {
+    this.qualityTrigger = true;
+    this.philanthropyTrigger = false;
+  }
+
+  triggerPhilanthropy() {
+    this.qualityTrigger = false;
+    this.philanthropyTrigger = true;
   }
 
 }

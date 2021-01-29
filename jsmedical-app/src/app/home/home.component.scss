@@ -11,6 +11,7 @@
     border: none;
     background-color: inherit;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2vw;
 }
 
 .dropdown {
@@ -78,6 +79,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    height: 4vw;
 }
 
 *:focus {
@@ -87,6 +89,7 @@
 .home-item {
     color: orange;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2vw;
 }
 
 .home-item:hover {
@@ -118,4 +121,8 @@
     position: absolute;
     top: 0;
     width: 100%;
+}
+
+.jslogo {
+    width: 25vw;
 }
