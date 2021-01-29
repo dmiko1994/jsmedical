@@ -1,7 +1,7 @@
 <div class="sticky-container">
     <div class="sticky">
         <div class="home-header">
-            <a [routerLink]="['/']">
+            <a [routerLink]="['/']" (click)="scrollToTop()">
                 <img class="jslogo" src="../assets/icons/jsmedlogo.PNG">
             </a>
         </div>
@@ -52,5 +52,11 @@
 </div>
 
 <router-outlet></router-outlet>
+
+<!-- <div>
+    &#169; Copyright. JSMedical All rights reserved.
+</div> -->
+
+
 
 

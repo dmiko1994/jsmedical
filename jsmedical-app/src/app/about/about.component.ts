@@ -18,11 +18,13 @@ export class AboutComponent implements OnInit {
   triggerQuality() {
     this.qualityTrigger = true;
     this.philanthropyTrigger = false;
+    window.scrollTo(0, window.scrollY + 300);
   }
 
   triggerPhilanthropy() {
     this.qualityTrigger = false;
     this.philanthropyTrigger = true;
+    window.scrollTo(0, window.scrollY + 300);
   }
 
 }

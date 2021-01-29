@@ -1,0 +1,20 @@
+@font-face {
+    font-family: alfa;
+    src: url(assets/fonts/Alfphabet-IV.ttf) format("truetype");
+}
+
+.scroll-behavior {
+  scroll-behavior: smooth;
+}
+
+.sub-component {
+  top: 9vw;
+  position: relative;
+}
+
+.prettify-border {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 10px;
+}

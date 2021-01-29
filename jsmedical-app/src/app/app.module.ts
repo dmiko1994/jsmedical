@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { PatientEducationComponent } from './patient-education/patient-education.component';
 import { AboutComponent } from './about/about.component';
 import { QualityServiceComponent } from './quality-service/quality-service.component';
+import { PhilanthropyComponent } from './philanthropy/philanthropy.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { QualityServiceComponent } from './quality-service/quality-service.compo
     HomeComponent,
     PatientEducationComponent,
     AboutComponent,
-    QualityServiceComponent
+    QualityServiceComponent,
+    PhilanthropyComponent
   ],
   imports: [
     AppRoutingModule,

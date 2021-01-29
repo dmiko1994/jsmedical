@@ -1,9 +1,0 @@
-@font-face {
-    font-family: alfa;
-    src: url(assets/fonts/Alfphabet-IV.ttf) format("truetype");
-}
-
-.sub-component {
-  top: 7vw;
-  position: relative;
-}

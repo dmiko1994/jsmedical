@@ -10,6 +10,7 @@ export class QualityServiceComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    window.scroll(0, window.scrollY + 300);
   }
 
 }
