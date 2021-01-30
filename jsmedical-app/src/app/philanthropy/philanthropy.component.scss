@@ -11,11 +11,34 @@
     width: 33vw;
     margin-top: 3vw;
     border-radius: 15px;
+    margin-left: 11vw;
 }
 
-.cause-container {
-    max-width: 27vw;
-    position: absolute;
-    top: 73vw;
-    left: 2vw;
+.body-fs {
+    font-size: 2vw;
+    max-width: 44vw;
+    color: #888970;
+}
+
+.donation {
+    width: 55vw;
+    font-size: 1.4vw;
+    color: #888970;
+}
+
+.contact {
+    font-size: 1.4vw;
+    cursor: pointer;
+    color: orange;
+    outline: none;
+    text-align: center;
+}
+
+.contact:hover {
+    color: red; 
+}
+
+.mini-imgs {
+    height: 12vw;
+    margin-top: 3vw;
 }
