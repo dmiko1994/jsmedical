@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dvt-info.component.scss']
 })
 export class DvtInfoComponent implements OnInit {
-
+  panelOpenState = false;
+  
   constructor() { }
 
   ngOnInit(): void {

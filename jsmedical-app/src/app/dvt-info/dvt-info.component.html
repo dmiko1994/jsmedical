@@ -1,1 +1,116 @@
-<p>dvt-info works!</p>
+<div class="central-panels sub-component">
+    <h1>
+        DVT (Deep Vein Thrombosis)
+    </h1>
+    <mat-expansion-panel class="panels">
+        <mat-expansion-panel-header>
+            <mat-panel-title class="bold panel-header">
+                DVT: An Overview
+            </mat-panel-title>
+            <mat-panel-description>
+                What is a DVT/PE?
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div>
+            <p>
+                Deep Vein Thombosis occurs when a blood clot forms in a deep vein. This type of blood clot typically develops in the lower leg,
+                thigh, or pelvis. When a DVT breaks loose and travels to the lungs it is called a Pulmonary Embolism (PE).
+            </p>
+            <div fxLayout="row">
+                <img class="dvt-images" src="../assets/icons/pulm-emb.PNG">
+                <img class="dvt-images" src="../assets/icons/pe-lung.PNG">
+            </div>
+            <div style="text-align: left;">
+                <h1 class="dvt-header-size">A Silent Killer</h1>
+                <div>
+                    <ul>
+                        <li>Over 900,000 Americans are affected by a DVT and up to <b>100,000 DVT-related deaths</b> occur in the U.S. each year</li>
+                        <li>As many as 50% of the cases of DVT are "silent." Very often the <b>first symptom is a fatal PE</b></li>
+                        <li>DVTs are responsible for more deaths than breast cancer, prostate cancer, AIDS and car accidents <b>combined</b></li>
+                    </ul>
+                </div>
+            </div>
+            <img src="../assets/icons/dvt-death-graphic.png">
+        </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel class="panels">
+        <mat-expansion-panel-header>
+            <mat-panel-title class="bold panel-header">
+                DVT in the Healthcare Setting
+            </mat-panel-title>
+            <mat-panel-description>
+                Cause and Risk Factors
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div style="text-align: left;">
+            <h1 class="dvt-header-size">Post-Surgical Blood Clots</h1>
+            <div fxLayout="row">
+                <div style="width: 30vw;">
+                    <ul>
+                        <li> DVT/PE issues occur as a result of hospitalization, surgery, and other healthcare treatment or procedures</li>
+                        <li>50% of blood clot occurrences are directly related to recent hospitalization/surgery, and most of them <b>do
+                            not occur until after discharge</b>
+                        </li>
+                        <li>DVTs can occur up to <b>30 days post-discharge.</b> Despite in-hospital prophylaxis in patients, the risk for 
+                            DVT remains high for several weeks after hosptial discharge
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <img class="surg-img" src="../assets/icons/surgery-img.png">
+                </div>
+            </div>
+            <h1 class="dvt-header-size">Patient Risk Factors</h1>
+            <p>In the absence of appropriate preventative treatment, patients will develop thrombosis in:</p>
+            <ul>
+                <li>10% to 40% of medical and general surgery</li>
+                <li>40% to 60% of major orthopedic surgery</li>
+            </ul>
+            <p class="bold">Most hospitalized patients have at least one of the following risk factors:</p>
+            <img src="../assets/icons/risk-factors.png">
+        </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel class="panels">
+        <mat-expansion-panel-header>
+            <mat-panel-title class="bold panel-header">
+                The Solution
+            </mat-panel-title>
+            <mat-panel-description>
+                Preventative Measures
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div fxLayout="row">
+            <div style="text-align: left;">
+                <h1 class="dvt-header-size">Prevention is Key</h1>
+                <div>
+                    <ul>
+                        <li>More than <b>50% of patients</b> who developed a DVT/PE <b>did not receive</b> appropriate preventative treatment</li>
+                        <li>70% of hospital/surgery patients who develop a DVT/PE after discharge are <b>preventable</b></li>
+                    </ul>
+                </div>
+                <h1 class="dvt-header-size">Mobile Pneumatic Compression: A Safer Alternative</h1>
+                <div>
+                    <div>
+                        <ul>
+                            <li>When patients complied with proper wearing of the pneumatic compression device, <b>the incidence of DVT dropped by as much as 72%</b></li>
+                            <li>Mechanical prophylaxis is the preferred method of DVT prevention. It provides DVT reduction rates similar to those achieved by pharmacological prophylaxis <b>without the risk of developing bleeding complications</b></li>
+                            <li>Pharmacological prophylaxis could be <b>completely avoided</b> in most cases if proper mechanical prophylaxis protocols were incorporated</li>
+                        </ul>
+                        <div class="proph-div">
+                            <h1 class="proph-header">DVT Prophylaxis</h1>
+                            <div style="font-size: 20px;">
+                                Check out the <a class="plasma" [routerLink]="['/plasmaflow']">Plasmaflow!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="../assets/icons/anti-vac.png">
+                <img src="../assets/icons/leg-comp.png">
+            </div>
+        </div>
+    </mat-expansion-panel>
+</div>

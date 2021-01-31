@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AboutComponent } from './about/about.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DvtInfoComponent } from './dvt-info/dvt-info.component';
 import { HomeComponent } from './home/home.component';
+import { MaterialModule } from './material.module';
 import { PatientEducationComponent } from './patient-education/patient-education.component';
 import { PhilanthropyComponent } from './philanthropy/philanthropy.component';
 import { QualityServiceComponent } from './quality-service/quality-service.component';
-import { DvtInfoComponent } from './dvt-info/dvt-info.component';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { DvtInfoComponent } from './dvt-info/dvt-info.component';
   imports: [
     AppRoutingModule,
     BrowserModule,
-    FlexLayoutModule
+    BrowserAnimationsModule,
+    FlexLayoutModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent],
