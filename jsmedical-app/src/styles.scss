@@ -38,6 +38,14 @@
   color: black;
 }
 
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  color: red;
+}
+
 //TODO: Ask J and Steve about header color
 // h1 {
 //   color: #888888;
