@@ -16,7 +16,7 @@
                 <button [routerLink]="['/education']" class="dropbtn">PATIENT EDUCATION</button>
                 <div class="larger-dropdown-content">
                     <a [routerLink]="['/dvt-info']">What is a DVT?</a>
-                    <a href="#">What is Lymphedema?</a>
+                    <a [routerLink]="['/lymphedema']">What is Lymphedema?</a>
                     <a [routerLink]="['/cold-therapy']">Why Cold Therapy?</a>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="dropdown toolbar-spacer">
-                <button class="dropbtn">CONTACT US</button>
+                <button [routerLink]="['/contact-us']" class="dropbtn">CONTACT US</button>
                 <div class="dropdown-content">
                     <a href="#">Inquiry</a>
                     <a href="#">Phone</a>

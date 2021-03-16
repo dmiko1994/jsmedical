@@ -12,6 +12,8 @@ import { PhilanthropyComponent } from './philanthropy/philanthropy.component';
 import { QualityServiceComponent } from './quality-service/quality-service.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { ColdTherapyComponent } from './cold-therapy/cold-therapy.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { LymphedemaComponent } from './lymphedema/lymphedema.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { ColdTherapyComponent } from './cold-therapy/cold-therapy.component';
     QualityServiceComponent,
     PhilanthropyComponent,
     DvtInfoComponent,
-    ColdTherapyComponent
+    ColdTherapyComponent,
+    ContactUsComponent,
+    LymphedemaComponent
   ],
   imports: [
     AppRoutingModule,

@@ -3,7 +3,9 @@ import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { AboutComponent } from "./about/about.component";
 import { ColdTherapyComponent } from "./cold-therapy/cold-therapy.component";
+import { ContactUsComponent } from "./contact-us/contact-us.component";
 import { DvtInfoComponent } from "./dvt-info/dvt-info.component";
+import { LymphedemaComponent } from "./lymphedema/lymphedema.component";
 import { PatientEducationComponent } from "./patient-education/patient-education.component";
 
 const homeRoutes: Routes = [
@@ -22,6 +24,14 @@ const homeRoutes: Routes = [
     {
         path: 'cold-therapy',
         component: ColdTherapyComponent
+    },
+    {
+        path: 'contact-us',
+        component: ContactUsComponent
+    },
+    {
+        path: 'lymphedema',
+        component: LymphedemaComponent
     }
 ]
 
