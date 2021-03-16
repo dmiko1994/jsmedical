@@ -1,84 +1,127 @@
-<div class="sub-component central-panels">
-    <h1>The Benefits of Cold Therapy</h1>
+<div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+        ❅
+    </div>
+    <div class="snowflake">
+        ❆
+    </div>
+    <div class="snowflake">
+        ❅
+    </div>
+    <div class="snowflake">
+        ❆
+    </div>
+    <div class="snowflake">
+        ❅
+    </div>
+    <div class="snowflake">
+        ❆
+    </div>
+</div>
+  
+<div class="snow">
+    <div class="central-panels ct-component">
+        <div style="margin-top: 5vw;">
+            <h1>The Benefits of Cold Therapy</h1>
+        </div>
 
-    <mat-expansion-panel class="panels">
-        <mat-expansion-panel-header>
-            <mat-panel-title class="bold panel-header">
-                The Benefits of Cold Therapy
-            </mat-panel-title>
-            <mat-panel-description>
-                
-            </mat-panel-description>
-        </mat-expansion-panel-header>
-        <div class="left-align">
-            <h1 class="ct-header-size">Why Cold Therapy?</h1>
-            <ul>
-                <li>
-                    The temperature of the tissue is lowered and this results in reducing the inflammation of the affected area.
-                     This promotes <b>faster healing time</b>
-                </li>
-                <li>
-                    The cold also acts as an analgesic and <b>reduces the pain</b> caused by the inflammation and swelling
-                </li>
-                <li>
-                    Cold Therapy can <b>reduce inflammation</b>, prevent swelling, and mitigate pain in the joint space after surgery
-                </li>
-            </ul>
-            <div fxLayout="row">
-                <img class="ct-images" src="../assets/icons/ct-img-1.png">
-                <img class="ct-images" src="../assets/icons/ct-img-2.png">
-            </div>
+        <mat-expansion-panel [expanded]="true" class="panels">
+            <mat-expansion-panel-header>
+                <mat-panel-title class="bold panel-header">
+                    The Benefits of Cold Therapy
+                </mat-panel-title>
+                <mat-panel-description>
+                    
+                </mat-panel-description>
+            </mat-expansion-panel-header>
             <div class="left-align">
-                <h1 class="ct-header-size">Non-Pharma Pain Management</h1>
+                <h1 class="ct-header-size">Why Cold Therapy?</h1>
+                <ul>
+                    <li>
+                        The temperature of the tissue is lowered and this results in reducing the inflammation of the affected area.
+                        This promotes <b>faster healing time</b>
+                    </li>
+                    <li>
+                        The cold also acts as an analgesic and <b>reduces the pain</b> caused by the inflammation and swelling
+                    </li>
+                    <li>
+                        Cold Therapy can <b>reduce inflammation</b>, prevent swelling, and mitigate pain in the joint space after surgery
+                    </li>
+                </ul>
                 <div fxLayout="row">
-                    <div>
-                        <ul>
-                            <li>Utilizing cold therapy can help <b>decrease the amount of opioids</b> prescribed after surgery</li>
-                            <li>
-                                In a study, it was found that the cold therapy group consumed significantly <b>lesser amounts of
-                                opioids</b> (47 tablets) as compared to the group without cold therapy (83 tablets)
-                            </li>
-                        </ul>
+                    <img class="ct-images" src="../assets/icons/ct-img-1.png">
+                    <img class="ct-images" src="../assets/icons/ct-img-2.png">
+                </div>
+                <div class="left-align">
+                    <h1 class="ct-header-size">Non-Pharma Pain Management</h1>
+                    <div fxLayout="row">
+                        <div>
+                            <ul>
+                                <li>Utilizing cold therapy can help <b>decrease the amount of opioids</b> prescribed after surgery</li>
+                                <li>
+                                    In a study, it was found that the cold therapy group consumed significantly <b>lesser amounts of
+                                    opioids</b> (47 tablets) as compared to the group without cold therapy (83 tablets)
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img class="ct-images" src="../assets/icons/ct-img-3.png">
+                        </div>
                     </div>
-                    <div>
-                        <img class="ct-images" src="../assets/icons/ct-img-3.png">
+                </div>
+            </div>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel class="panels">
+            <mat-expansion-panel-header>
+                <mat-panel-title class="bold panel-header">
+                    Products
+                </mat-panel-title>
+                <mat-panel-description>
+                    Dive into our Catalog of Cold Therapy Products
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <div fxLayout="row" fxLayoutAlign="space-between">
+                <div fxLayout="column">
+                    <div [routerLink]="['/cryo-knee']" class="clickable">
+                        <h1 class="ct-header-size">Cryo Knee</h1>
+                        <img src="../assets/icons/cryo-knee.png">
+                    </div>
+                    <div [routerLink]="['/cryo-shoulder']" class="clickable">
+                        <h1 class="ct-header-size">Cryo Shoulder</h1>
+                        <img class="" src="../assets/icons/cryo-shoulder.png">
+                    </div>
+                </div>
+                <div fxLayout="column">
+                    <div [routerLink]="['/cryo-hip']" class="clickable">
+                        <h1 class="ct-header-size">Cryo Hip</h1>
+                        <img src="../assets/icons/cryo-hip.png">
+                    </div>
+                    <div [routerLink]="['/cryo-ankle']" class="clickable">
+                        <h1 class="ct-header-size">Cryo Ankle</h1>
+                        <img class="" src="../assets/icons/cryo-ankle.png">
                     </div>
                 </div>
             </div>
-        </div>
-    </mat-expansion-panel>
 
-    <mat-expansion-panel class="panels">
-        <mat-expansion-panel-header>
-            <mat-panel-title class="bold panel-header">
-                Products
-            </mat-panel-title>
-            <mat-panel-description>
-                Dive into our Catalog of Cold Therapy Products
-            </mat-panel-description>
-        </mat-expansion-panel-header>
-        <div fxLayout="row" fxLayoutAlign="space-between">
-            <div fxLayout="column">
-                <div [routerLink]="['/cryo-knee']" class="clickable">
-                    <h1 class="ct-header-size">Cryo Knee</h1>
-                    <img src="../assets/icons/cryo-knee.png">
-                </div>
-                <div [routerLink]="['/cryo-shoulder']" class="clickable">
-                    <h1 class="ct-header-size">Cryo Shoulder</h1>
-                    <img class="" src="../assets/icons/cryo-shoulder.png">
-                </div>
-            </div>
-            <div fxLayout="column">
-                <div [routerLink]="['/cryo-hip']" class="clickable">
-                    <h1 class="ct-header-size">Cryo Hip</h1>
-                    <img src="../assets/icons/cryo-hip.png">
-                </div>
-                <div [routerLink]="['/cryo-ankle']" class="clickable">
-                    <h1 class="ct-header-size">Cryo Ankle</h1>
-                    <img class="" src="../assets/icons/cryo-ankle.png">
-                </div>
-            </div>
-        </div>
-
-    </mat-expansion-panel>
+        </mat-expansion-panel>
+    </div>
 </div>
