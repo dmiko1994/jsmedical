@@ -14,6 +14,14 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { ColdTherapyComponent } from './cold-therapy/cold-therapy.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { LymphedemaComponent } from './lymphedema/lymphedema.component';
+import { ProductsComponent } from './products/products.component';
+import { PlasmaflowComponent } from './plasmaflow/plasmaflow.component';
+import { ManaflowComponent } from './manaflow/manaflow.component';
+import { CryokneeComponent } from './cryoknee/cryoknee.component';
+import { CryoshoulderComponent } from './cryoshoulder/cryoshoulder.component';
+import { CryohipComponent } from './cryohip/cryohip.component';
+import { CryoankleComponent } from './cryoankle/cryoankle.component';
+import { CryospineComponent } from './cryospine/cryospine.component';
 
 
 @NgModule({
@@ -27,7 +35,15 @@ import { LymphedemaComponent } from './lymphedema/lymphedema.component';
     DvtInfoComponent,
     ColdTherapyComponent,
     ContactUsComponent,
-    LymphedemaComponent
+    LymphedemaComponent,
+    ProductsComponent,
+    PlasmaflowComponent,
+    ManaflowComponent,
+    CryokneeComponent,
+    CryoshoulderComponent,
+    CryohipComponent,
+    CryoankleComponent,
+    CryospineComponent
   ],
   imports: [
     AppRoutingModule,
