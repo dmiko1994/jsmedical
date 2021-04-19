@@ -50,6 +50,45 @@
   font-size: 16px;
 }
 
+.center-content { 
+  text-align: -webkit-center;
+}
+
+.device-content {
+  margin-top: 20px;
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 10px;
+}
+
+.lineHorizontal {
+  width: 40%;
+  border: 1px solid black;
+  margin-top: -20px;
+}
+
+.description-container {
+  margin-top: 2vh;
+  width: 50%;
+}
+
+.common-button {
+  border-radius: 10px;
+  height: 6VH;
+  background-color: dodgerblue;
+  cursor: pointer;
+}
+
+.common-button {
+  margin-bottom: 3vh;  
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
 //TODO: Ask J and Steve about header color
 // h1 {
 //   color: #888888;
