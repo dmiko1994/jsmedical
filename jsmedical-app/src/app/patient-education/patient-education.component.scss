@@ -29,3 +29,18 @@
     width: 100%;
     height: auto;
 }
+
+.pe-buttons {
+    border: 1px solid black;
+    background-color: midnightblue;
+    color: white;
+    box-shadow: 4px 5px 8px midnightblue;
+    outline: none;
+    border-radius: 10px;
+}
+
+.pe-buttons:hover {
+    background-color: skyblue;
+    box-shadow: 4px 5px 8px skyblue;
+    color: black;
+}

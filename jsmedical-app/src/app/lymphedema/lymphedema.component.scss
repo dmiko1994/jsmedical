@@ -2,10 +2,19 @@
     text-align: -webkit-center;
 }
 
+.lymph-bg {
+    background-color: darkgray;
+    min-height: 90vh;
+}
+
 .panels {
     max-width: 50vw;
 }
 
 .panel-header {
     width: 7vw;
+}
+
+.info-size {
+    font-size: 20px;
 }
