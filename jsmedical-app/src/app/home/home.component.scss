@@ -5,7 +5,7 @@
 }
 
 .dropbtn {
-    color: orange;
+    color: #000066;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -70,7 +70,7 @@
 }
 
 .dropdown:hover .dropbtn {
-    color: red;
+    color: #FF8D00;
     cursor: pointer;
 }
 
@@ -87,13 +87,13 @@
 }
 
 .home-item {
-    color: orange;
+    color: #000066;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2vw;
 }
 
 .home-item:hover {
-    color: red;
+    color: #FF8D00;
 }
 
 .products-text {
